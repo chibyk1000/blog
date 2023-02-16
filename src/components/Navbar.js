@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
       <nav>
-          <a href="" className='logo' ><img src="/logo192.png" alt="" /></a>
+          <Link to="/" className='logo' ><img src="/logo192.png" alt="" /></Link>
           <ul>
               {
                   navLinks.map((link) => {
